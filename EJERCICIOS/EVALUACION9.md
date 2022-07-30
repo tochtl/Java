@@ -47,6 +47,10 @@ contesta lo siguiente: (Valor 1 punto)
 
 ![image](https://user-images.githubusercontent.com/91554777/181846003-658ef512-f5b1-4aff-bef9-96609abf7dea.png)
 
+                perro   gato    perro   tortuga         pajaro          tortuga         perro
+                        perro           perro           tortuga         perro
+                                                        perro
+        
 8. Escribe un programa en java con las siguientes indicaciones: (Valor 3 punto)
 
 a. Importa las clases necesarias para construir una pila.
