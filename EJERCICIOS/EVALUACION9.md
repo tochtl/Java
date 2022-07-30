@@ -65,4 +65,17 @@ d. Finalmente, crea un bucle condicional donde mientras la pila no esté vacía,
 imprimas la camisa que se está sacando.
 
 
-           Tu código aqui
+        import java.util.Stack;
+        public class Proyecto1 {    
+            public static void main(String[] args) {
+                Stack<String>camisas=new Stack<>();
+                camisas.push("camisa para smoking");
+                camisas.push("camisa cuello italiano");
+                camisas.push("camisa negra");
+                System.out.println("La última camisa agregada es " + camisas.peek());
+
+                while (!camisas.empty()){
+                    System.out.println("El tipo de camisa es " + camisas.pop());
+                }        
+            }
+        }
