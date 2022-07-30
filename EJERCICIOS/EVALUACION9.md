@@ -12,23 +12,19 @@ clara, según corresponda.
 1. Una pila debe tener las siguientes variables: (Valor 1 punto)
 
         a. Una variable para almacenar los datos.
-        b. Una variable que permite sacar el primer elemento ingresado
-        c. Una variable que permite sacar el último elemento ingresado
-
+       
 
 2. Una pila aplica el concepto de LIFO (Last in, first out) – Últimos en entrar, primeros
 en salir. (Valor 1 punto)
 
               a. Verdadero
-              b. Falso
-
+             
 
 3. Una operación “Push”, sin importar el tipo de datos, refiere al procedimiento que
 permite la inserción de un nuevo elemento. (Valor 1 punto)
 
               a. Verdadero
-              b. Falso
-
+            
 4. Se tiene la siguiente lista con 6 elementos, teniendo en cuenta que es una cola
 contesta lo siguiente: (Valor 1 punto)
 
