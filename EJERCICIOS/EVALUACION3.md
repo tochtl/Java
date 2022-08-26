@@ -68,9 +68,8 @@ Considera el siguiente código (Valor 2 puntos)
                 double cantidadARetirar= 250;
                 double saldoActualizado = 1000.75 - 250;
                 double cantidadParaCadaAmigo = (1000.75 - 250)/3;
-                boolean puedeComprarTicket = 250==250.25;
+                boolean puedeComprarTicket = 250!=250.25;
                 
-                System.out.println("Le di a cada amigo" + cantidadParaCadaAmigo);
                 System.out.println(puedeComprarTicket);
                 System.out.println("Le di a cada amigo" + cantidadParaCadaAmigo);
         
