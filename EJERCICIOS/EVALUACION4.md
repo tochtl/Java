@@ -13,8 +13,19 @@ envíos de compras a minoristas. (Valor 5 puntos)
                     public static void main(String[] args) {
                       double costoArticulo = 30.99;
                       boolean listoEviar=false;
-                    }
-                  }
+                      
+                   if (costoArticulo>24){
+                   System.out.println("El valor del articulo es alto");
+                   }
+                   if(listoEviar==false){
+                     System.out.println("Pedido no listo");
+                           }
+                   else {
+                     System.out.println("Enviado");
+                   }
+               }
+           }
+              
 
 a. Escribe una declaración usando if que imprima ¡El valor del artículo es alto!
 cuando costoArticulo es mayor que 24.00.
@@ -39,7 +50,39 @@ las siguientes series haciendo uso necesariamente de las sentencias de control:
 
 1, 3, 5, 7, 9, 11, 13, 15, 17, .... así sucesivamente.
 
+    public class hola{ 
+      public static void main(String[] args) {
+          int x=0;
+          for (x=0;x<=100;x++){
+              if ((x%2)!=0){
+                  System.out.println(x);
+              }
+          }
+
+       }
+    }
+
 ● Serie de Fibonacci
 
 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ... así sucesivamente.
+
+    public class hola{ 
+     public static void main(String[] args) {
+     int num1 = 0;
+     int num2 = 1;
+     int temp;
+     int limite = 1000;
+     
+     System.out.println(num1);
+     System.out.println(num2);
+     
+     while(num2+num1 <= limite){
+         temp = num1;
+         num1 = num2;
+         num2 = temp + num1;
+         System.out.println(num2);
+     }
+          
+       }
+     }
 
