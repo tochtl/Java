@@ -62,4 +62,29 @@ siguiente procedimiento:
   siguiente mensaje: Perros actuales en la estética: “Número de
   perros”.
 
-            TU CODIGO AQUI
+                  import java.util.ArrayList;
+                  public class RecibeMascota {
+                      String nombre; // Nombre de la mascota,
+                      int edad; // Edad de la mascota
+                      String sexo; // sexo
+                      String nombreTutor; // Nombre completo del tutor
+                      public static void main(String args[]) {
+                        // Creamos un arreglo de tipo RecibeAlumno
+                          ArrayList<RecibeAlumno> alumnosActuales = new ArrayList();
+
+                          // Hacemos una instancia y creamos un objeto de tipo RecibeMascota
+                          RecibeMascota miMascota = new RecibeMascota();
+                          miMascota.nombre = "Manolo";
+                          miMascota.edad = 18;
+                          miMascota.sexo = "macho";
+                          miMascota.raza = "puerquito";
+                          miMascota.tamaño = "mediano";
+                          miMascota.nombreTutor = "Paco Beristain";
+                          mascotasActuales.add(miMascota);
+                          System.out.println("Alumnos actuales en la clase: " + mascotasActuales.size());
+                      }
+
+                  }
+
+       
+
